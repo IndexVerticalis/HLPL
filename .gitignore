@@ -1,7 +1,5 @@
 __pycache__/
 *.pyc
-storage.data
-log.txt
 .venv/
 .idea/
 .vscode/
