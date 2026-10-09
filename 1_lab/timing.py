@@ -12,6 +12,7 @@ class TimeIt:
     def __call__(self, *args, **kwargs):
         start = time.perf_counter()
         exc_type = None
+        result = None
 
         try:
             result = self.func(*args, **kwargs)
